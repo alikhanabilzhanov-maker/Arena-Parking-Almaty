@@ -81,4 +81,4 @@ while True:
         break
 
     else:
-        print("Мәзірдегі таңдаңыз.")
+        print("Мәзірдегі.")
