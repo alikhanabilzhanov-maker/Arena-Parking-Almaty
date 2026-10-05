@@ -20,5 +20,5 @@ for table in ['users', 'events', 'parking_zones', 'sector_mapping',
 with sqlite3.connect(folder / 'arena_lab6_demo.db') as saved:
     connection.backup(saved)
 connection.close()
-print('\nДайын! CREATE, INSERT, UPDATE, DELETE орындалды.')
+print('\n! CREATE, INSERT, UPDATE, DELETE орындалды.')
 print('База:', folder / 'arena_lab6_demo.db')
