@@ -82,4 +82,3 @@ LEFT JOIN payments AS p
    AND p.status = 'success'
 GROUP BY e.event_id, e.title
 ORDER BY total_amount DESC, e.title;
-еуые
