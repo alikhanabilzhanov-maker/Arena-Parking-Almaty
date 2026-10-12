@@ -39,6 +39,8 @@ SELECT status, COUNT(*) AS feedback_count
 FROM feedback
 GROUP BY status;
 
+sysss
+
 SELECT zone_id, COUNT(*) AS active_booking_count
 FROM bookings
 WHERE status IN ('confirmed', 'entered')
