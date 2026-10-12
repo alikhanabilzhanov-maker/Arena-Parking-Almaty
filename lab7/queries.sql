@@ -83,5 +83,3 @@ LEFT JOIN payments AS p
 GROUP BY e.event_id, e.title
 ORDER BY total_amount DESC, e.title;
 
-SELECT zone_id, zone_name, capacity, is_open
-FROM parking_zones;
