@@ -1,3 +1,4 @@
+әувуаві
 SELECT zone_id, zone_name, capacity, is_open
 FROM parking_zones;
 
